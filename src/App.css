@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+}
+h1{
+    margin: 50px;
+    font-size: 2.2em;
+}
+h2{
+    font-size: 1.5em;
+    margin: 0 50px
+}
+.outercontainer{
+    width: 100vw;
+    border: 4px solid pink;
+    justify-content: center;
+
+}
+.innercontainer{
+    display: flex;
+    flex-direction: column;
+    min-height: 1000px;
+    flex-basis: 1500px;
+    border: 4px solid blue;
+
+
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    flex-basis: 100px;
+    border: 2px solid black;
+    justify-content: space-between;
+    margin: 50px 50px 0;
+
+}
+.soldTvs {
+    color: #235e23;
+    border: 2px solid #235e23;
+    background-color: #8ebd8e;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 250px;
+    /*width: 300px;*/
+    padding: 50px;
+    justify-content: space-between;
+    text-align: center;
+    row-gap: 20px;
+    border-radius: 5px;
+}
+.boughtTvs{
+    color: #130999;
+    border: 2px solid #0c0650;
+    background-color: #7e87c1;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 250px;
+
+    padding: 50px;
+    justify-content: space-between;
+    text-align: center;
+    row-gap: 20px;
+    border-radius: 5px;
+}
+.haveToSell{
+    color: #680404;
+    border: 2px solid #680404;
+    background-color: #b63c4b;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 250px;
+    padding: 50px;
+    justify-content: space-between;
+    text-align: center;
+    row-gap: 20px;
+    border-radius: 5px;
+}
