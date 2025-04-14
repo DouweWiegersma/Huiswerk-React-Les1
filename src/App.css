@@ -105,3 +105,50 @@ h2{
     color: rgba(255, 255, 255, 0.92);
     background-color: rgba(128, 0, 128, 0.91);
 }
+ul{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100vw;
+    max-width: 100vw;
+    row-gap: 40px;
+}
+.optionTv{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.listCheck{
+
+    display: flex;
+    align-items: center;
+}
+.tvInfos{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+li{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.tvImage{
+    padding: 10px;
+}
+.lijst{
+    border: 3px dotted black;
+}
+.optionss{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.tvOptions{
+    margin: 10px 50px;
+}
+.para{
+    row-gap: 20px;
+    margin-right: 20px;
+}
