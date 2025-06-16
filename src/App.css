@@ -1,0 +1,107 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+}
+h1{
+    margin: 50px;
+    font-size: 2.2em;
+}
+h2{
+    font-size: 1.5em;
+    margin: 0 100px;
+    font-family: Candara, sans-serif;
+}
+.outercontainer{
+    width: 100vw;
+    justify-content: center;
+
+}
+.innercontainer{
+    display: flex;
+    flex-direction: column;
+    min-height: 300px;
+    flex-basis: 1500px;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    flex-basis: 100px;
+    justify-content: space-between;
+    margin: 50px 50px 0;
+
+}
+.soldTvs {
+    color: #235e23;
+    border: 2px solid #235e23;
+    background-color: #8ebd8e;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 250px;
+    padding: 50px;
+    justify-content: space-between;
+    text-align: center;
+    row-gap: 20px;
+    border-radius: 5px;
+}
+.boughtTvs{
+    color: #130999;
+    border: 2px solid #0c0650;
+    background-color: #7e87c1;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 250px;
+
+    padding: 50px;
+    justify-content: space-between;
+    text-align: center;
+    row-gap: 20px;
+    border-radius: 5px;
+}
+.haveToSell{
+    color: #680404;
+    border: 2px solid #680404;
+    background-color: #b63c4b;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 250px;
+    padding: 50px;
+    justify-content: space-between;
+    text-align: center;
+    row-gap: 20px;
+    border-radius: 5px;
+}
+.bestTv{
+    border: 3px dotted black;
+    padding: 20px;
+    display: flex;
+    flex-basis: 800px;
+    justify-content: space-around;
+    margin: 10px 50px;
+
+}
+.infoTvs{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: #0f0f70;
+    font-weight: bolder;
+}
+.checkOptions{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: #0c0650;
+}
+.buttom-layout{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.buttoms{
+    padding: 15px;
+    border-radius: 5px;
+    color: rgba(255, 255, 255, 0.92);
+    background-color: rgba(128, 0, 128, 0.91);
+}
